@@ -86,7 +86,7 @@ class _LoginPageState extends State<LoginPage> {
     showDialog(context: context, builder: (_) {
       return AlertDialog(
         title: const Text("Demo Hesap"),
-        content: const Text("Örn: kullanıcı adı: student1\nşifre: Passw0rd!"),
+        content: const Text("Örn: kullanıcı adı: student1\nşifre: Pass!"),
         actions: [ TextButton(onPressed: () => Navigator.pop(context), child: const Text("Kapat")) ],
       );
     });
